@@ -17,7 +17,7 @@ describe('Test Suite', function() {
 
         const lp=new LandingPage()
         lp.visit()
-        cy.wait(5000)
+        cy.wait(5000) // wait
         cy.title().should('eq','SKY | Watch the Best Entertainment, Sports, Movies & TV Shows')
 
         /*cy.wait(5000)
